@@ -1,2 +1,5 @@
 #!/bin/bash
-echo -e "Helllo, World" "\n"  >> 0-hello_world
+echo "Helllo, World" "$"  >> 0-hello_world
+Helllo, World 
+
+Helllo, World $
