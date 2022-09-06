@@ -1,5 +1,2 @@
 #!/bin/bash
-echo "Helllo, World" "$"  >> 0-hello_world
-Helllo, World 
-
-Helllo, World $
+printf "Hello, World\n"
