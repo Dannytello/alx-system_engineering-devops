@@ -1,0 +1,68 @@
+#!/bin/bash
+pr -m /etc/passwd /etc/hosts >> 3-twofiles
+
+
+2022-09-06 15:13                                                  Page 1
+
+
+root:x:0:0:root:/root:/bin/bash	    127.0.0.1	localhost
+daemon:x:1:1:daemon:/usr/sbin:/usr/ ::1	localhost ip6-localhost ip6
+bin:x:2:2:bin:/bin:/usr/sbin/nologi fe00::0	ip6-localnet
+sys:x:3:3:sys:/dev:/usr/sbin/nologi ff00::0	ip6-mcastprefix
+sync:x:4:65534:sync:/bin:/bin/sync  ff02::1	ip6-allnodes
+games:x:5:60:games:/usr/games:/usr/ ff02::2	ip6-allrouters
+man:x:6:12:man:/var/cache/man:/usr/ 172.17.0.17	c87c8322651d
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbi 
+mail:x:8:8:mail:/var/mail:/usr/sbin 
+news:x:9:9:news:/var/spool/news:/us 
+uucp:x:10:10:uucp:/var/spool/uucp:/ 
+proxy:x:13:13:proxy:/bin:/usr/sbin/ 
+www-data:x:33:33:www-data:/var/www: 
+backup:x:34:34:backup:/var/backups: 
+list:x:38:38:Mailing List Manager:/ 
+irc:x:39:39:ircd:/var/run/ircd:/usr 
+gnats:x:41:41:Gnats Bug-Reporting S 
+nobody:x:65534:65534:nobody:/nonexi 
+_apt:x:100:65534::/nonexistent:/usr 
+systemd-timesync:x:101:101:systemd  
+systemd-network:x:102:103:systemd N 
+systemd-resolve:x:103:104:systemd R 
+messagebus:x:104:105::/nonexistent: 
+sshd:x:105:65534::/run/sshd:/usr/sb 
+mysql:x:106:107:MySQL Server,,,:/va 
+betty:x:1000:1000::/home/betty:/bin 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
