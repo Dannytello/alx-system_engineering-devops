@@ -1,5 +1,5 @@
 #!/bin/bash
-cat  /etc/passwd >> 2-hellofile                              
+cat passwd >> 2-hellofile                              
 
 
 
