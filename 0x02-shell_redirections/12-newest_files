@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Artls 
+ls -Artls | tail -n 12
