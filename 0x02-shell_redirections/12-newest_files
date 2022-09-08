@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -larts | tail -n 12
+ls -t | head 
